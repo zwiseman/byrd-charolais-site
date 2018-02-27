@@ -1,0 +1,8 @@
+/Users/zacharywiseman/Documents/ByrdCharolais/byrdCharolais/bin/Debug/netcoreapp1.1/byrdCharolais.deps.json
+/Users/zacharywiseman/Documents/ByrdCharolais/byrdCharolais/bin/Debug/netcoreapp1.1/byrdCharolais.runtimeconfig.json
+/Users/zacharywiseman/Documents/ByrdCharolais/byrdCharolais/bin/Debug/netcoreapp1.1/byrdCharolais.runtimeconfig.dev.json
+/Users/zacharywiseman/Documents/ByrdCharolais/byrdCharolais/bin/Debug/netcoreapp1.1/byrdCharolais.dll
+/Users/zacharywiseman/Documents/ByrdCharolais/byrdCharolais/bin/Debug/netcoreapp1.1/byrdCharolais.pdb
+/Users/zacharywiseman/Documents/ByrdCharolais/byrdCharolais/obj/Debug/netcoreapp1.1/byrdCharolais.AssemblyInfo.cs
+/Users/zacharywiseman/Documents/ByrdCharolais/byrdCharolais/obj/Debug/netcoreapp1.1/byrdCharolais.dll
+/Users/zacharywiseman/Documents/ByrdCharolais/byrdCharolais/obj/Debug/netcoreapp1.1/byrdCharolais.pdb
