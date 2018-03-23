@@ -1,0 +1,6 @@
+<div *ngIf="data">
+  the temperature is {{data.temp_f}} and {{data.relative_humidity}}
+</div>
+<div *ngIf="!data || data.length = 0" class="alert alert-success">
+  There is no data for you at the moment.
+</div>
