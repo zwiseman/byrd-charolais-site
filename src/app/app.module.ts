@@ -1,24 +1,22 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
-
 import { AppComponent } from './app.component';
-import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { FooterComponent } from './footer/footer.component';
 import { NavbarComponent } from './navbar/navbar.component';
-
+import { WeatherComponent } from './weather/weather.component';
+import { WeatherService } from './weather.service';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavBarComponent,
     FooterComponent,
-    NavbarComponent
+    NavbarComponent,
+    WeatherComponent
   ],
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [WeatherService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
