@@ -5,6 +5,7 @@ import { FooterComponent } from './footer/footer.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { WeatherComponent } from './weather/weather.component';
 import { WeatherService } from './weather.service';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -14,9 +15,10 @@ import { WeatherService } from './weather.service';
     WeatherComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule
   ],
-  providers: [WeatherService],
+  providers: [ WeatherService ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
