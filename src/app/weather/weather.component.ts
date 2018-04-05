@@ -14,15 +14,16 @@ import { of } from 'rxjs/observable/of';
 
 export class WeatherComponent implements OnInit, OnDestroy {
   data: any[];
+  location: any[];
   subscription: Subscription;
-
+  radar: any = true;
   constructor(private _weatherService: WeatherService) { }
 
   ngOnInit() {
     this.subscription = this._weatherService.getWeather().subscribe(data => {
       this.data = data['current_observation'];
-      // console.log(data);
-      // console.log(this.data['temp_f']);
+      this.location = this.data['display_location'];
+      console.log(this.data);
     });
   }
 
@@ -30,5 +31,13 @@ export class WeatherComponent implements OnInit, OnDestroy {
     if (this.subscription) {
       this.subscription.unsubscribe();
     }
+  }
+
+  isRadar(): boolean {
+    return true;
+  }
+
+  isSat(): boolean {
+    return false;
   }
 }
